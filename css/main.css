@@ -1,0 +1,387 @@
+#pre-header {
+  height: 40px;
+  background-color: #383f43;
+  background: url("/img/poly_repeating_pattern.png"); }
+
+#header {
+  background: #fff;
+  padding: 0px 70px; }
+  #header .logo {
+    display: inline-block;
+    margin-top: 15px; }
+    #header .logo .icon {
+      float: left;
+      background: url("/img/logo_2013_80x80.jpg");
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    #header .logo .name-and-title {
+      float: right;
+      margin-top: 4px; }
+      #header .logo .name-and-title p {
+        margin: 0; }
+      #header .logo .name-and-title .name {
+        font-family: 'Arvo', sans-serif;
+        font-weight: 700;
+        color: black; }
+      #header .logo .name-and-title .title {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        color: #8c9295;
+        font-size: 0.7rem; }
+  #header .page-links {
+    list-style: none;
+    margin: 0;
+    float: right; }
+    #header .page-links li {
+      display: inline-block;
+      padding: 20px 10px;
+      padding-bottom: 14px;
+      border-bottom: 6px solid #fff; }
+      #header .page-links li:hover {
+        background: #eff4f7;
+        border-bottom: 6px solid #1a6c81;
+        cursor: pointer; }
+      #header .page-links li p {
+        margin: 0;
+        text-align: center; }
+      #header .page-links li .title {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: black; }
+      #header .page-links li .desc {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #777777; }
+
+.header-home {
+  top: 40px;
+  position: relative; }
+
+#header-image {
+  position: relative;
+  top: -80px;
+  z-index: -01; }
+
+#post-header {
+  background-color: #383f43;
+  background: url("/img/poly_repeating_pattern.png");
+  color: #9da5aa;
+  padding: 30px 70px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700; }
+  #post-header #page-title {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    float: left;
+    color: white;
+    text-shadow: 1px 1px #000;
+    margin: 0; }
+  #post-header #breadcrumb {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    font-size: 1rem;
+    float: right;
+    color: white;
+    font-weight: 400; }
+    #post-header #breadcrumb li {
+      display: inline-block;
+      text-shadow: 1px 1px #000; }
+      #post-header #breadcrumb li:first-child {
+        color: #848b8f; }
+      #post-header #breadcrumb li:after {
+        content: " / "; }
+
+#introduction {
+  text-align: center;
+  padding: 30px 0; }
+  #introduction h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 20px; }
+  #introduction p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem; }
+  #introduction .button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    background: white;
+    border: 2px solid #1a6c81;
+    color: #1a6c81;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px; }
+    #introduction .button:hover {
+      background: #1a6c81;
+      color: white; }
+
+#showcase {
+  background: #dfe4e7;
+  padding: 50px 70px 50px 70px; }
+  #showcase .columns {
+    background: #dfe4e7; }
+  #showcase .container {
+    background: white;
+    padding: 15px 10px; }
+    #showcase .container .placeholder {
+      width: 70px;
+      height: 35px;
+      background: #6194a8;
+      display: inline-block;
+      vertical-align: top; }
+    #showcase .container .right-box {
+      display: inline-block;
+      margin-left: 5px; }
+      #showcase .container .right-box .title {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+        margin-bottom: 15px; }
+      #showcase .container .right-box .text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem; }
+
+#about {
+  padding: 30px 70px; }
+  #about p {
+    font-family: 'Ubuntu', sans-serif; }
+  #about .title {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700; }
+    #about .title.side {
+      font-weight: 500;
+      color: #848b8f;
+      border-bottom: 1px solid #848b8f;
+      padding-bottom: 10px;
+      margin-bottom: 0; }
+    #about .title.main {
+      padding: 30px;
+      padding-bottom: 0; }
+  #about .second {
+    margin-top: 30px; }
+    #about .second .side {
+      margin-bottom: 10px; }
+  #about .text {
+    font-size: 0.9rem;
+    color: #8c9295; }
+    #about .text .email {
+      color: black; }
+    #about .text.main {
+      padding: 30px;
+      padding-top: 0; }
+  #about .icon {
+    width: 55px;
+    height: 55px;
+    background: gray;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 2px; }
+  #about ul {
+    list-style: none;
+    margin: 0; }
+    #about ul li {
+      border-bottom: 1px solid #cfd5d8;
+      padding: 10px 0;
+      font-size: 0.8rem; }
+      #about ul li a {
+        color: black; }
+        #about ul li a:hover {
+          color: blue; }
+
+#contact-form {
+  padding: 30px 70px; }
+  #contact-form input, #contact-form textarea {
+    background: #e9f0f4;
+    border: 0; }
+  #contact-form p {
+    font-family: 'Ubuntu', sans-serif; }
+  #contact-form .title {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700; }
+    #contact-form .title.side {
+      color: #848b8f; }
+  #contact-form .text {
+    font-size: 0.9rem;
+    color: #8c9295; }
+    #contact-form .text .email {
+      color: black; }
+  #contact-form .icon {
+    width: 55px;
+    height: 55px;
+    background: gray;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 2px; }
+  #contact-form .button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    background: white;
+    border: 2px solid #848b8f;
+    color: #848b8f;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px; }
+    #contact-form .button:hover {
+      background: #848b8f;
+      color: white; }
+
+#portfolio-filter {
+  padding: 30px 70px; }
+  #portfolio-filter .button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    background: white;
+    border: 2px solid #848b8f;
+    color: #848b8f;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px; }
+    #portfolio-filter .button:hover {
+      background: #848b8f;
+      color: white; }
+
+#portfolio {
+  padding: 0 70px; }
+  #portfolio .project {
+    position: relative; }
+  #portfolio .container {
+    position: relative; }
+    #portfolio .container:hover .top .overlay {
+      visibility: visible; }
+    #portfolio .container .top {
+      position: relative; }
+      #portfolio .container .top .overlay {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        background: rgba(91, 99, 100, 0.8);
+        width: 100%;
+        height: 100%;
+        text-align: center; }
+        #portfolio .container .top .overlay .button {
+          font-family: 'Dosis', sans-serif;
+          font-weight: 600;
+          background: white;
+          border: 2px solid white;
+          color: white;
+          padding: 8px 15px;
+          font-size: 0.9rem;
+          border-radius: 4px;
+          background: rgba(91, 99, 100, 0.4);
+          position: absolute;
+          top: 45%;
+          left: 30%; }
+          #portfolio .container .top .overlay .button:hover {
+            background: white;
+            color: white; }
+          #portfolio .container .top .overlay .button:hover {
+            color: rgba(91, 99, 100, 0.4); }
+    #portfolio .container .info {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      padding: 0 10px;
+      background: #e1e6e9;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem; }
+
+#project {
+  padding: 30px 70px 60px 70px; }
+  #project .date {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: #35bdbb;
+    margin: 0; }
+  #project .name {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #25292b; }
+  #project .text {
+    color: #8c9295;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem; }
+  #project .button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    background: white;
+    border: 2px solid #848b8f;
+    color: #848b8f;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px; }
+    #project .button:hover {
+      background: #848b8f;
+      color: white; }
+  #project .images img {
+    margin-bottom: 10px; }
+
+#footer-one {
+  background-color: #383f43;
+  background: url("/img/poly_repeating_pattern.png");
+  color: white;
+  padding: 50px 70px 0 70px; }
+  #footer-one h3 {
+    color: #35bdbb;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4b5053; }
+  #footer-one p {
+    font-size: 12px; }
+  #footer-one .icon {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 2px; }
+  #footer-one ul {
+    list-style: none;
+    margin: 0; }
+    #footer-one ul li {
+      border-bottom: 1px dashed #4b5053;
+      padding-bottom: 5px;
+      margin-top: 5px;
+      font-size: 0.8rem; }
+      #footer-one ul li a {
+        color: white; }
+        #footer-one ul li a:hover {
+          color: #aaa; }
+
+#footer-two {
+  background-color: #383f43;
+  background: url("/img/poly_repeating_pattern.png");
+  color: #9da5aa;
+  padding: 0 70px 20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700; }
+  #footer-two .columns {
+    border-top: 1px solid #4b5053;
+    padding: 20px 0 0; }
+  #footer-two #copyright {
+    display: inline-block;
+    font-size: 10px;
+    float: left; }
+  #footer-two #site-links {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    font-size: 10px;
+    float: right; }
+    #footer-two #site-links li {
+      display: inline-block; }
+      #footer-two #site-links li:after {
+        content: " / "; }

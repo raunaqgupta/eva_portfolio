@@ -1,0 +1,23 @@
+{% include page_header.html %}
+{% include header.html %}
+
+<div id="project" class="row">
+	<div class="small-4 columns">
+		<p class="date">{{page.date | date_to_long_string}}</p>
+		<p class="name">{{page.title}}</p>
+		<div class="text">{{content}}</div>
+		<a href="{{page.site_link}}" class="button small radius">VIEW SITE</a>
+		<div class="project-nav">
+			<a href="{{page.previous}}" class="button small radius"><</a>
+			<a href="{{page.next}}" class="button small radius">></a>
+		</div>
+	</div>
+	<div class="small-8 columns images">
+		<img src="/img/banner.png"></img>
+		<img src="/img/banner.png"></img>
+		<img src="/img/banner.png"></img>
+	</div>
+</div>
+
+{% include footer.html %}
+{% include page_footer.html %}

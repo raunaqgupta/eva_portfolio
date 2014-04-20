@@ -65,6 +65,8 @@
   position: relative;
   top: -80px;
   z-index: -01; }
+  #header-image #header-background {
+    margin-bottom: -80px; }
 
 #post-header {
   background-color: #383f43;

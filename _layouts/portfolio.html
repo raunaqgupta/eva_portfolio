@@ -3,9 +3,9 @@
 
 <div id="portfolio-filter" class="row">
   <div class="small-12 columns">
-    <a href="#" class="button tiny radius">ALL</a>
-    <a href="#" class="button tiny radius">PROFESSIONAL</a>
-    <a href="#" class="button tiny radius">PERSONAL</a>
+    <a href="#" id="portfolio-filter-all" class="button tiny radius active">ALL</a>
+    <a href="#" id="portfolio-filter-professional" class="button tiny radius">PROFESSIONAL</a>
+    <a href="#" id="portfolio-filter-personal" class="button tiny radius">PERSONAL</a>
   </div>
 </div>
 
@@ -13,7 +13,7 @@
   <div class="small-12 columns">
     <ul class="small-block-grid-3">
       {% for post in site.categories.portfolio limit:9 %}
-      <li class="project">
+      <li class="project" data-tag="{{post.tag}}">
         <div class="container">
           <div class="top">
             <img src="/img/{{post.image_folder}}/thumbnail.png"></img>
@@ -21,98 +21,10 @@
               <a href="{{post.url}}" class="button tiny radius">VIEW PROJECT</a>
             </div>
           </div>
-          <div class="info">JANUX</div>
+          <div class="info">{{post.title}}</div>
         </div>
       </li>
       {% endfor %}
-<!--       <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li>
-      <li class="project">
-        <div class="container">
-          <div class="top">
-            <img src="img/portfolio-placeholder.png"></img>
-            <div class="overlay">
-              <a href="#" class="button tiny radius">VIEW PROJECT</a>
-            </div>
-          </div>
-          <div class="info">JANUX</div>
-        </div>
-      </li> -->
     </ul>
   </div>
 </div>

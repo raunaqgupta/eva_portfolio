@@ -1,7 +1,7 @@
 #pre-header {
   height: 40px;
   background-color: #383f43;
-  background: url("/img/poly_repeating_pattern.png"); }
+  background: url("/img/common/poly_repeating_pattern.png"); }
 
 #header {
   background: #fff;
@@ -11,7 +11,7 @@
     margin-top: 15px; }
     #header .logo .icon {
       float: left;
-      background: url("/img/logo_2013_80x80.jpg");
+      background: url("/img/common/logo_2013_80x80.jpg");
       width: 50px;
       height: 50px;
       background-size: contain;
@@ -68,7 +68,7 @@
 
 #post-header {
   background-color: #383f43;
-  background: url("/img/poly_repeating_pattern.png");
+  background: url("/img/common/poly_repeating_pattern.png");
   color: #9da5aa;
   padding: 30px 70px;
   font-family: 'Dosis', sans-serif;
@@ -117,7 +117,7 @@
     padding: 8px 15px;
     font-size: 0.9rem;
     border-radius: 4px; }
-    #introduction .button:hover {
+    #introduction .button:hover, #introduction .button.active {
       background: #1a6c81;
       color: white; }
 
@@ -228,7 +228,7 @@
     padding: 8px 15px;
     font-size: 0.9rem;
     border-radius: 4px; }
-    #contact-form .button:hover {
+    #contact-form .button:hover, #contact-form .button.active {
       background: #848b8f;
       color: white; }
 
@@ -243,7 +243,7 @@
     padding: 8px 15px;
     font-size: 0.9rem;
     border-radius: 4px; }
-    #portfolio-filter .button:hover {
+    #portfolio-filter .button:hover, #portfolio-filter .button.active {
       background: #848b8f;
       color: white; }
 
@@ -278,7 +278,7 @@
           position: absolute;
           top: 45%;
           left: 30%; }
-          #portfolio .container .top .overlay .button:hover {
+          #portfolio .container .top .overlay .button:hover, #portfolio .container .top .overlay .button.active {
             background: white;
             color: white; }
           #portfolio .container .top .overlay .button:hover {
@@ -319,7 +319,7 @@
     padding: 8px 15px;
     font-size: 0.9rem;
     border-radius: 4px; }
-    #project .button:hover {
+    #project .button:hover, #project .button.active {
       background: #848b8f;
       color: white; }
   #project .images img {
@@ -327,7 +327,7 @@
 
 #footer-one {
   background-color: #383f43;
-  background: url("/img/poly_repeating_pattern.png");
+  background: url("/img/common/poly_repeating_pattern.png");
   color: white;
   padding: 50px 70px 0 70px; }
   #footer-one h3 {
@@ -363,7 +363,7 @@
 
 #footer-two {
   background-color: #383f43;
-  background: url("/img/poly_repeating_pattern.png");
+  background: url("/img/common/poly_repeating_pattern.png");
   color: #9da5aa;
   padding: 0 70px 20px;
   font-family: 'Dosis', sans-serif;

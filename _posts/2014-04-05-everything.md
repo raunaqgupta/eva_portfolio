@@ -1,10 +1,10 @@
 ---
 layout: post
 categories: portfolio
-tag: professional
-title: OKLAHOMA UNIVERSITY
-image_folder: img_oklahoma_university
-site_link: http://www.google.com
+tag: personal
+title: EVERYTHING
+image_folder: img_everything
+site_link: http://www.facebook.com
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis massa et felis auctor venenatis. Morbi laoreet cursus mi non bibendum. Nam bibendum quam a hendrerit tristique.

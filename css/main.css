@@ -1,7 +1,7 @@
 #pre-header {
   height: 40px;
   background-color: #383f43;
-  background: url("/img/common/poly_repeating_pattern.png"); }
+  background: url("../img/common/poly_repeating_pattern.png"); }
 
 #header {
   background: #fff;
@@ -11,7 +11,7 @@
     margin-top: 15px; }
     #header .logo .icon {
       float: left;
-      background: url("/img/common/logo_2013_80x80.jpg");
+      background: url("../img/common/logo_2013_80x80.jpg");
       width: 50px;
       height: 50px;
       background-size: contain;
@@ -68,7 +68,7 @@
 
 #post-header {
   background-color: #383f43;
-  background: url("/img/common/poly_repeating_pattern.png");
+  background: url("../img/common/poly_repeating_pattern.png");
   color: #9da5aa;
   padding: 30px 70px;
   font-family: 'Dosis', sans-serif;
@@ -329,7 +329,7 @@
 
 #footer-one {
   background-color: #383f43;
-  background: url("/img/common/poly_repeating_pattern.png");
+  background: url("../img/common/poly_repeating_pattern.png");
   color: white;
   padding: 50px 70px 0 70px; }
   #footer-one h3 {
@@ -365,7 +365,7 @@
 
 #footer-two {
   background-color: #383f43;
-  background: url("/img/common/poly_repeating_pattern.png");
+  background: url("../img/common/poly_repeating_pattern.png");
   color: #9da5aa;
   padding: 0 70px 20px;
   font-family: 'Dosis', sans-serif;

@@ -4,6 +4,7 @@ categories: portfolio
 tag: professional
 title: OKLAHOMA UNIVERSITY
 image_folder: img_oklahoma_university
+images: 1.png 2.png 3.png
 site_link: http://www.google.com
 ---
 

@@ -94,6 +94,8 @@
       text-shadow: 1px 1px #000; }
       #post-header #breadcrumb li:first-child {
         color: #848b8f; }
+      #post-header #breadcrumb li:last-child:after {
+        content: ""; }
       #post-header #breadcrumb li:after {
         content: " / "; }
 

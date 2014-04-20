@@ -121,6 +121,13 @@
       &:first-child {
         color: #848b8f;
       }
+
+      &:last-child {
+        &:after {
+          content: "";
+        }
+      }
+
       &:after {
         content: " / ";
       }

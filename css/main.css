@@ -383,5 +383,11 @@
     float: right; }
     #footer-two #site-links li {
       display: inline-block; }
+      #footer-two #site-links li:last-child:after {
+        content: ""; }
       #footer-two #site-links li:after {
         content: " / "; }
+      #footer-two #site-links li a {
+        color: #9da5aa; }
+        #footer-two #site-links li a:hover {
+          color: white; }

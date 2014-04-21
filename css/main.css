@@ -131,24 +131,24 @@
   #showcase .columns {
     background: #dfe4e7; }
   #showcase .container {
-    background: white;
+    background-color: white;
     padding: 15px 10px; }
     #showcase .container .placeholder {
-      width: 70px;
-      height: 35px;
-      background: #6194a8;
-      display: inline-block;
-      vertical-align: top; }
+      padding: 0;
+      background: white; }
     #showcase .container .right-box {
       display: inline-block;
-      margin-left: 5px; }
+      padding: 0;
+      padding-left: 10px;
+      background: white; }
       #showcase .container .right-box .title {
         font-family: 'Dosis', sans-serif;
         font-weight: 600;
         margin-bottom: 15px; }
       #showcase .container .right-box .text {
         font-family: 'Open Sans', sans-serif;
-        font-size: 0.8rem; }
+        font-size: 0.8rem;
+        line-height: 1.1rem; }
 
 #about {
   padding: 30px 70px; }
@@ -203,6 +203,8 @@
   #contact-form input, #contact-form textarea {
     background: #e9f0f4;
     border: 0; }
+  #contact-form input[type="submit"] {
+    margin-top: 20px; }
   #contact-form p {
     font-family: 'Ubuntu', sans-serif; }
   #contact-form .title {

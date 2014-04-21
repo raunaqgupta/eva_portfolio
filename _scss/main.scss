@@ -166,20 +166,20 @@
   }
 
   .container {
-    background: white;
+    background-color: white;
     padding: 15px 10px;
 
     .placeholder {
-      width: 70px;
-      height: 35px;
-      background: #6194a8;
-      display: inline-block;
-      vertical-align: top;
+      padding: 0;
+      background: white;
     }
 
     .right-box {
       display: inline-block;
-      margin-left: 5px;
+      padding: 0;
+      padding-left: 10px;
+      background: white;
+
       .title {
         font-family: 'Dosis', sans-serif;
         font-weight: 600;
@@ -188,6 +188,7 @@
       .text {
         font-family: 'Open Sans', sans-serif;
         font-size: 0.8rem;
+        line-height: 1.1rem;
       }
     }
   }
@@ -275,6 +276,10 @@
   input, textarea {
     background: #e9f0f4;
     border: 0;
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
   }
 
   p {

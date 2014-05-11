@@ -1,5 +1,7 @@
 @import 'mixins';
 
+.row {min-width:100% !important;}
+
 #pre-header {
   height: 40px;
   background-color: #383f43;
@@ -114,7 +116,7 @@
     display: inline-block;
     list-style: none;
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     float: right;
     color: white;
     font-weight: 400;
@@ -165,31 +167,44 @@
     background: #dfe4e7;
   }
 
-  .container {
-    background-color: white;
-    padding: 15px 10px;
+  .box {
+    background: white;
+    display: table-row;
+    height: 150px;
+  }
 
-    .placeholder {
-      padding: 0;
-      background: white;
+  .left-box {
+    display: table-cell;
+    width: 70px;
+    padding: 10px;
+  }
+
+  .right-box {
+    position: relative;
+    display: table-cell;
+    padding: 10px;
+    padding-left: 0;
+    vertical-align: top;
+
+
+    .title {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
 
-    .right-box {
-      display: inline-block;
-      padding: 0;
-      padding-left: 10px;
-      background: white;
+    .text {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.8rem;
+      line-height: 1.1rem;
+    }
 
-      .title {
-        font-family: 'Dosis', sans-serif;
-        font-weight: 600;
-        margin-bottom: 15px;
-      }
-      .text {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.8rem;
-        line-height: 1.1rem;
-      }
+    .link {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
     }
   }
 }
@@ -264,7 +279,7 @@
         color: black;
 
         &:hover {
-          color: blue;
+          color: #aaa;
         }
       }
     }
@@ -301,6 +316,7 @@
 
     .email {
       color: black;
+      font-weight: bold;
     }
   }
 
@@ -322,7 +338,7 @@
 #portfolio-filter {
   padding: 30px 70px;
   .button {
-    @include button(#848b8f);
+    @include button(#1a6c81);
   }
 }
 

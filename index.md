@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Eva Schtern
+title: Eva Shtern
 ---

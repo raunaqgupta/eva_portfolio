@@ -1,7 +1,5 @@
 @import 'mixins';
 
-.row {min-width:100% !important;}
-
 #pre-header {
   height: 40px;
   background-color: #383f43;
@@ -91,6 +89,31 @@
 
   #header-background {
     margin-bottom: -80px;
+  }
+
+  #header-summary {
+    position: absolute;
+    color: white;
+    top: 240px;
+    left: 100px;
+
+    p {
+      font-family: 'Brawler', sans-serif;
+      font-size: 1.9rem;
+      margin: 0;
+    }
+
+    .button {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 8px 15px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+      margin-top: 15px;
+    }
   }
 }
 
@@ -266,11 +289,11 @@
     margin-right: 2px;
   }
 
-  ul {
+  .links {
     list-style: none;
     margin: 0;
 
-    li {
+    > li {
       border-bottom: 1px solid #cfd5d8;
       padding: 10px 0;
       font-size: 0.8rem;
@@ -280,6 +303,27 @@
 
         &:hover {
           color: #aaa;
+        }
+      }
+    }
+  }
+
+  .about-image {
+    .slick-prev {
+      left: 5px;
+      background-color: transparent;
+    }
+
+    .slick-next {
+      right: 5px;
+      background-color: transparent;
+    }
+
+    .slick-prev, .slick-next {
+      &:hover {
+        background-color: transparent;
+        &:before {
+          color: black;
         }
       }
     }

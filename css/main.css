@@ -1,6 +1,3 @@
-.row {
-  min-width: 100% !important; }
-
 #pre-header {
   height: 40px;
   background-color: #383f43;
@@ -70,6 +67,25 @@
   z-index: -01; }
   #header-image #header-background {
     margin-bottom: -80px; }
+  #header-image #header-summary {
+    position: absolute;
+    color: white;
+    top: 240px;
+    left: 100px; }
+    #header-image #header-summary p {
+      font-family: 'Brawler', sans-serif;
+      font-size: 1.9rem;
+      margin: 0; }
+    #header-image #header-summary .button {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 8px 15px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+      margin-top: 15px; }
 
 #post-header {
   background-color: #383f43;
@@ -198,17 +214,27 @@
     display: inline-block;
     margin-top: 4px;
     margin-right: 2px; }
-  #about ul {
+  #about .links {
     list-style: none;
     margin: 0; }
-    #about ul li {
+    #about .links > li {
       border-bottom: 1px solid #cfd5d8;
       padding: 10px 0;
       font-size: 0.8rem; }
-      #about ul li a {
+      #about .links > li a {
         color: black; }
-        #about ul li a:hover {
+        #about .links > li a:hover {
           color: #aaa; }
+  #about .about-image .slick-prev {
+    left: 5px;
+    background-color: transparent; }
+  #about .about-image .slick-next {
+    right: 5px;
+    background-color: transparent; }
+  #about .about-image .slick-prev:hover, #about .about-image .slick-next:hover {
+    background-color: transparent; }
+    #about .about-image .slick-prev:hover:before, #about .about-image .slick-next:hover:before {
+      color: black; }
 
 #contact-form {
   padding: 30px 70px; }

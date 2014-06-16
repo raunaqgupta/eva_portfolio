@@ -24,6 +24,7 @@ $(document).ready(function(){
 			}
 		});
 	});
+
 	$("#portfolio-filter-personal").on("click", function(e){
 		e.preventDefault();
 		$("#portfolio-filter-all").removeClass("active");
@@ -38,5 +39,14 @@ $(document).ready(function(){
 				$(this).css("display", "block");
 			}
 		});
+	});
+
+	// slick image slider for about.html
+	$('.about-image').slick({
+		dots: false,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
 	});
 });

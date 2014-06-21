@@ -80,21 +80,11 @@
 .header-home {
   top: 40px;
   position: relative;
-}
-
-#header-image {
-  position: relative;
-  top: -80px;
-  z-index: -01;
-
-  #header-background {
-    margin-bottom: -80px;
-  }
 
   #header-summary {
     position: absolute;
     color: white;
-    top: 240px;
+    top: 190px;
     left: 100px;
 
     p {
@@ -104,16 +94,19 @@
     }
 
     .button {
-      font-family: 'Dosis', sans-serif;
-      font-weight: 600;
-      background: transparent;
-      border: 2px solid #fff;
-      color: #fff;
-      padding: 8px 15px;
-      font-size: 0.8rem;
-      border-radius: 4px;
-      margin-top: 15px;
+      @include button(#fff, #555);
+      background-color: transparent;
     }
+  }
+}
+
+#header-image {
+  position: relative;
+  top: -80px;
+  z-index: -01;
+
+  #header-background {
+    margin-bottom: -80px;
   }
 }
 
@@ -178,7 +171,7 @@
     font-size: 0.85rem;
   }
   .button {
-    @include button(#1a6c81);
+    @include button(#1a6c81, #fff);
   }
 }
 
@@ -374,14 +367,14 @@
   }
 
   .button {
-    @include button(#848b8f);
+    @include button(#848b8f, #fff);
   }
 }
 
 #portfolio-filter {
   padding: 30px 70px;
   .button {
-    @include button(#1a6c81);
+    @include button(#1a6c81, #fff);
   }
 }
 
@@ -413,7 +406,7 @@
         text-align: center;
 
         .button {
-          @include button(#fff);
+          @include button(#fff, #000);
           background: rgba(91, 99, 100, 0.4);
           position: absolute;
           top: 45%;
@@ -464,7 +457,7 @@
   }
 
   .button {
-    @include button(#848b8f);
+    @include button(#848b8f, #fff);
   }
 
   .images {

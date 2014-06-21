@@ -42,11 +42,11 @@ $(document).ready(function(){
 	});
 
 	// slick image slider for about.html
-	$('.about-image').slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		fade: true,
-		cssEase: 'linear'
+	$('#header-background').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		arrow: false,
 	});
 });

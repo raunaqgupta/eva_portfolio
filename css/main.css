@@ -60,6 +60,28 @@
 .header-home {
   top: 40px;
   position: relative; }
+  .header-home #header-summary {
+    position: absolute;
+    color: white;
+    top: 190px;
+    left: 100px; }
+    .header-home #header-summary p {
+      font-family: 'Brawler', sans-serif;
+      font-size: 1.9rem;
+      margin: 0; }
+    .header-home #header-summary .button {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      background-color: #555555;
+      border: 2px solid white;
+      color: white;
+      padding: 8px 15px;
+      font-size: 0.9rem;
+      border-radius: 4px;
+      background-color: transparent; }
+      .header-home #header-summary .button:hover, .header-home #header-summary .button.active {
+        background: white;
+        color: #555555; }
 
 #header-image {
   position: relative;
@@ -67,25 +89,6 @@
   z-index: -01; }
   #header-image #header-background {
     margin-bottom: -80px; }
-  #header-image #header-summary {
-    position: absolute;
-    color: white;
-    top: 240px;
-    left: 100px; }
-    #header-image #header-summary p {
-      font-family: 'Brawler', sans-serif;
-      font-size: 1.9rem;
-      margin: 0; }
-    #header-image #header-summary .button {
-      font-family: 'Dosis', sans-serif;
-      font-weight: 600;
-      background: transparent;
-      border: 2px solid #fff;
-      color: #fff;
-      padding: 8px 15px;
-      font-size: 0.8rem;
-      border-radius: 4px;
-      margin-top: 15px; }
 
 #post-header {
   background-color: #383f43;
@@ -134,7 +137,7 @@
   #introduction .button {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    background: white;
+    background-color: white;
     border: 2px solid #1a6c81;
     color: #1a6c81;
     padding: 8px 15px;
@@ -266,7 +269,7 @@
   #contact-form .button {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    background: white;
+    background-color: white;
     border: 2px solid #848b8f;
     color: #848b8f;
     padding: 8px 15px;
@@ -281,7 +284,7 @@
   #portfolio-filter .button {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    background: white;
+    background-color: white;
     border: 2px solid #1a6c81;
     color: #1a6c81;
     padding: 8px 15px;
@@ -312,7 +315,7 @@
         #portfolio .container .top .overlay .button {
           font-family: 'Dosis', sans-serif;
           font-weight: 600;
-          background: white;
+          background-color: black;
           border: 2px solid white;
           color: white;
           padding: 8px 15px;
@@ -324,7 +327,7 @@
           left: 30%; }
           #portfolio .container .top .overlay .button:hover, #portfolio .container .top .overlay .button.active {
             background: white;
-            color: white; }
+            color: black; }
           #portfolio .container .top .overlay .button:hover {
             color: rgba(91, 99, 100, 0.4); }
     #portfolio .container .info {
@@ -357,7 +360,7 @@
   #project .button {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    background: white;
+    background-color: white;
     border: 2px solid #848b8f;
     color: #848b8f;
     padding: 8px 15px;
